@@ -204,3 +204,9 @@ a {
     gap: 20px;
     list-style-type: none;
 }
+
+a.linkesp{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cor05);
+}
