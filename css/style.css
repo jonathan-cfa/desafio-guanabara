@@ -73,6 +73,9 @@ header>nav {
 header>nav>ul>a {
     color: white;
 }
+header>nav>ul>a::after{
+    content: none;
+}
 
 header>nav>ul>a:hover {
     background-color: var(--cor06);
@@ -158,6 +161,15 @@ aside {
     
 }
 
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cor05);
+    text-decoration: none;
+}
+a::after{
+    content: "\1F517";
+}
 
 footer {
     background-color: var(--cor05);
@@ -171,19 +183,13 @@ footer>p {
     margin: 0px;
 }
 
-a {
-    color: var(--corlink1);
-    text-decoration: none;
-    font-weight: bold;
-}
 
+/* ---------------------------------------------------class */
 .destaques {
     font-size: 16px;
     font-weight: bold;
     color: var(--cor05);
 }
-
-/* ---------------------------------------------------class */
 
 .asideheader {
     /* Cabeçario do aside final */
@@ -205,8 +211,11 @@ a {
     list-style-type: none;
 }
 
-a.linkesp{
-    font-size: 16px;
+.linksem::after{
+    content: none;
+}
+.linksem{
+    color: var(--corlink1);
+    text-decoration: none;
     font-weight: bold;
-    color: var(--cor05);
 }
