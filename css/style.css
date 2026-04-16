@@ -1,3 +1,4 @@
+/* ===========================================CONFIGURAÇÕES GLOBAIS=========================================== */
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -27,6 +28,8 @@
     padding: 0px;
 }
 
+
+/*===========================================CONFIGURAÇÕES GENÉRICAS===========================================*/
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
@@ -51,7 +54,7 @@ header > p{
     margin: auto;
     padding: 0px 10px 0px 10px;
     text-shadow: 2px 2px 0px #00000045;
-    margin-bottom: 20px;
+/*     margin-bottom: 20px; */
 }
 header > h1{
     color: white;
